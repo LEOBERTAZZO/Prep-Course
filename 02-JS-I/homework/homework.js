@@ -174,10 +174,10 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   
-} if (numero > 0){
+ if (numero > 0){
   return "es negativo";
 } else (numero < 0)  
-  return "es positivo";
+  return "es positivo"; }
 
 
 return false
