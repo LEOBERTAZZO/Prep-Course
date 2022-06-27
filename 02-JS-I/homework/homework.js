@@ -122,6 +122,7 @@ function esImpar(num) {
 } if (num % 1===0) {
   return true;
 } else {return false;}
+
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
