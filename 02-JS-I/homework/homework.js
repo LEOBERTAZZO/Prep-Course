@@ -135,7 +135,8 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
   
-} return match.pow (num,2)
+ return match.pow (num,2)
+}
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
