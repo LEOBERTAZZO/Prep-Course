@@ -112,7 +112,8 @@ function esPar(num) {
   
 } if (num % 2===0) {
   return true; 
-} else {return false;}
+} 
+else {return false;}
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
@@ -168,10 +169,10 @@ function esPositivo(numero) {
   
 } if (numero > 0){
   return "es negativo";
-} else (numero < 0) { 
+} else (numero < 0)  
   return "es positivo";
 
-}
+
 return false
 
  
