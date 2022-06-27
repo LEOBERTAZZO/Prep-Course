@@ -113,9 +113,9 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
-} if (num % 2===0); {
+} if (num % 2===0); 
   return true; 
-} 
+ 
 
 
 
