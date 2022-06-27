@@ -229,7 +229,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   
-} return (euro * 1.20) 
+ return (euro * 1.20) }
 
 
 function esVocal(letra){
