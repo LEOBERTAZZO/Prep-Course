@@ -41,8 +41,8 @@ describe('nuevaString', function() {
   });
 });
 
-describe('nuevoNum', function() {
-  it('Deberia ser un numero', function() {
+describe('nuevoNum', function(number) {
+  it('2', function(number) {
     expect(typeof nuevoNum).toBe('number');
   });
 });
