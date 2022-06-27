@@ -177,10 +177,10 @@ function esPositivo(numero) {
  if (numero > 0){
   return "es negativo";
 } else (numero < 0)  
-  return "es positivo"; }
+  return "es positivo"; 
 
 
-return false
+return false } 
 
  
 function agregarSimboloExclamacion(str) {
