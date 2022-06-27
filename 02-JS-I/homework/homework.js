@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-var string ="Leandro";
+var nuevaString = "leandro";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 12; 
@@ -47,7 +47,7 @@ function resta(x, y) {
   
 }
 
-function multiplica(x, y) {
+function multiplica(x) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   return x . y;
@@ -144,7 +144,7 @@ function elevarAlCubo(num) {
   
  return match.pow (num,3) }
 
-function elevar(num, exponent) {
+function elevar() {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   
@@ -156,7 +156,7 @@ function redondearNumero(num) {
   
  return match.round (num) }
 
-function redondearHaciaArriba(num) {
+function redondearHaciaArriba() {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   
@@ -183,41 +183,41 @@ function esPositivo(numero) {
 return false } 
 
  
-function agregarSimboloExclamacion(str) {
+function agregarSimboloExclamacion() {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
 }
 
-function combinarNombres(nombre, apellido) {
+function combinarNombres() {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   
 }
 
-function obtenerSaludo(nombre) {
+function obtenerSaludo() {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
   
 }
 
-function obtenerAreaRectangulo(alto, ancho) {
+function obtenerAreaRectangulo() {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
   
 }
 
 
-function retornarPerimetro(lado){
+function retornarPerimetro(){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
   
 }
 
 
-function areaDelTriangulo(base, altura){
+function areaDelTriangulo(){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
 
@@ -232,7 +232,7 @@ function deEuroAdolar(euro){
  return (euro * 1.20) }
 
 
-function esVocal(letra){
+function esVocal(){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
