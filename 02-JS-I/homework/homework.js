@@ -180,9 +180,9 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   
  if (numero > 0){
-  return "Es negativo";
+  return "Es positivo";
 } else (numero < 0)  
-  {return "Es positivo"; }
+  {return "Es negativo"; }
 
 
 {return false} } 
