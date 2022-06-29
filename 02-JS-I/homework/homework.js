@@ -183,7 +183,7 @@ function esPositivo(numero) {
   return "Es positivo";
 }   else (numero < 0)  
   {return "Es negativo"; }
-  if  (numero === 0){ 
+  if (numero === 0){ 
     return "false";
   }
 
@@ -230,11 +230,12 @@ function retornarPerimetro(){
 }
 
 
-function areaDelTriangulo(){
+function areaDelTriangulo(base,altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
+  return base * altura;
 
-}
+} 
 
 
 function deEuroAdolar(euro){
