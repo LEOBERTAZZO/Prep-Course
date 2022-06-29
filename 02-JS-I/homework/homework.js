@@ -47,10 +47,10 @@ function resta(x, y) {
   
 }
 
-function multiplica(x) {
+function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return x . y;
+  return x * y ;
   
 }
 
