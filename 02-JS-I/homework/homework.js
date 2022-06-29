@@ -144,7 +144,10 @@ function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
   
- return match.pow (num, 3) }
+ return match.pow (num, 3); 
+} 
+
+
 
 function elevar() {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
