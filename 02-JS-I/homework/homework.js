@@ -177,10 +177,10 @@ function esPositivo(numero) {
  if (numero > 0){
   return "es negativo";
 } else (numero < 0)  
-  return "es positivo"; 
+  {return "es positivo"; }
 
 
-return false } 
+{return false} } 
 
  
 function agregarSimboloExclamacion() {
@@ -194,6 +194,8 @@ function combinarNombres() {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
+  return nombre + apellido; 
+  
   
 }
 
@@ -201,6 +203,7 @@ function obtenerSaludo() {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+  return "hola" + "" + nombre + "!"; 
   
 }
 
