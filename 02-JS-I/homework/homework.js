@@ -149,11 +149,11 @@ function elevarAlCubo(num) {
 
 
 
-function elevar() {
+function elevar(num) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  
-}
+ return  Match.pow (num , exponent) ;
+} 
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
