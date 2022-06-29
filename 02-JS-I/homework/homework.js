@@ -166,8 +166,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  if (num === 1,5) { return 2}
-   else if (num === 0.1) {return 1};
+  return Math.ceil (num)
   
 }
 
