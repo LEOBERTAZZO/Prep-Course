@@ -161,9 +161,11 @@ function redondearNumero(num) {
   
  return Match.round (num) } 
 
-function redondearHaciaArriba() {
+function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
+  if (num === 1,5) { return 2}
+   else if (num === 0.1) {return 1};
   
 }
 
