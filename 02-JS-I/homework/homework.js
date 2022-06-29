@@ -159,14 +159,14 @@ function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
   
- return Math.round (num) 
+ return Math.round (num);
 
  } 
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.ceil (num)
+  return Math.ceil(num)
   
 }
 
