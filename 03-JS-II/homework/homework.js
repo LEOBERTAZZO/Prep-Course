@@ -4,8 +4,12 @@ function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
-  // Tu código:
-}
+  // Tu código: 
+     x , y === int;
+     Math.ceil(x , y);
+     if (x === y); {return x, y}; 
+
+} 
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
