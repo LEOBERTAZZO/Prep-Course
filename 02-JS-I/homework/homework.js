@@ -245,7 +245,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base,altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  return base * altura / 2;
+  return (base * altura / 2);
 
 } 
 
@@ -255,7 +255,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   
- return (euro * 1.20) }
+ return (euro * 1.20); }
 
 
 function esVocal(letra){
