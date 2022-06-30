@@ -5,7 +5,7 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código: 
-     x , y /2 ===0;
+     x , y %2 ===0;
      Math.ceil(x , y);
      if (x === y); {return x, y}; 
 
