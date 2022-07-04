@@ -74,7 +74,7 @@ function estaEnRango(numero) {
   if (numero <50) {return "true"}
   else if (numero >20 ) {return "true"}
   else {return "false"};
-}
+} 
 
 function esEntero(numero) {
   // Devuelve "true" si "numero" es un entero (int/integer)
