@@ -42,7 +42,11 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-}
+  if (idioma ===aleman) {return "Guten tag!"}
+  else if (idioma ===mandarin) {return "Ni Hao!"}
+  else if (idioma ===ingles) {return "Hello!"}
+  else {return "undefined"};
+} 
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
