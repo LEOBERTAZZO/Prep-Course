@@ -6,8 +6,9 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código: 
      x , y %2 ===0;
-     Math.ceil(x , y);
-     if (x === y); {return x || y}; 
+    if (x>y) {return x}
+    else if (x<y) {return y}
+     else if (x === y) {return x || y}; 
 
 } 
 
@@ -130,6 +131,8 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
+  if (5<10) {return "Soy verdadero"}
+
 
 }
 
