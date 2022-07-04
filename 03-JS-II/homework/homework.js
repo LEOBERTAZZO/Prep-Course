@@ -106,10 +106,10 @@ function operadoresLogicos(num1, num2, num3) {
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
   if (num1>num2 && num1>num3 && num1<0) {return "Numero 1 es mayor y positivo"}
   else if (num1&&num2&&num3>0) {return "Hay negativos"} 
-  else if (num3>num1&&num3>num2++) {retun ===num3}
+  else if (num3>num1&&num3>num2++) {return ===num3}
   else if (0<0&&0>0||0===0) {return "Error"}
   else {return false};
-} 
+}  
 
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
