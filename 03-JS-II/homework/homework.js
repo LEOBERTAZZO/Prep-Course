@@ -132,9 +132,11 @@ function esVerdadero(valor){
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
   if (5<10) {return "Soy verdadero"}
+  else if (10>5) {return "false"};
 
 
-}
+
+} 
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
