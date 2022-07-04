@@ -7,7 +7,7 @@ function obtenerMayor(x, y) {
   // Tu código: 
      x , y %2 ===0;
      Math.ceil(x , y);
-     if (x === y); {return x, y}; 
+     if (x === y); {return x || y}; 
 
 } 
 
