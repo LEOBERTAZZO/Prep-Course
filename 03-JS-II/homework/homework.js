@@ -131,8 +131,10 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
+  
   if (5<10) {return "Soy verdadero"}
-  if (1*1===5) {return "Soy falso"};
+  
+  
 
 
 
