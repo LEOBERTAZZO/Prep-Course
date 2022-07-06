@@ -64,7 +64,7 @@ function colors(color) {
   else if (color ===red) {return "This is red"}
   else if (color ===green) {return "This is green"}
   else if (color ===orange) {return "This is orange"}
-  else {return "Color not found"};
+       {return "Color not found"};
 
 } 
 
@@ -133,7 +133,7 @@ function esVerdadero(valor){
   //Escribe tu código aquí
   
   if (valor) {return "Soy verdadero";}
-  else {"Soy falso";}
+   return "Soy falso";
   
   
 
