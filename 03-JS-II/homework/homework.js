@@ -94,8 +94,8 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if (numero /2 ===0) {return "true"}
-  else {return "false"}; 
+  if (numero /2 ===0) {return true}
+  else {return false}; 
 } 
 
 function fizzBuzz(numero) {
@@ -132,7 +132,7 @@ function esVerdadero(valor){
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
   
-  if (valor) {return "Soy verdadero";}
+  if (valor === true) {return "Soy verdadero";}
    return "Soy falso";
   
   
