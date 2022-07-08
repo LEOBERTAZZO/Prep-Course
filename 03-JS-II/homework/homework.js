@@ -74,7 +74,7 @@ function esDiezOCinco(numero) {
   // Tu código:
  if (numero === 10 || 5) {return true}
  
-   {return false}; 
+  else {return false}; 
 }  
 
 function estaEnRango(numero) {
