@@ -80,7 +80,7 @@ function esDiezOCinco(numero) {
   // Tu código:
  if (numero === 10 || 5) {return true;}
  
-  else return false;
+   return false;
 }  
 
 function estaEnRango(numero) {
