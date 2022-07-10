@@ -17,8 +17,8 @@ function devolverUltimoElemento(array) {
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-  return [array.lentgh -1];
-}
+  return [array.lentgh];
+} 
 
 
 function incrementarPorUno(array) {
