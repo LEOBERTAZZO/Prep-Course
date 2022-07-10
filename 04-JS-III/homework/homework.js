@@ -20,7 +20,7 @@ function obtenerLargoDelArray(array) {
   // Tu código:
    [array.lentgh];
    return array;
-} 
+}  
 
 
 function incrementarPorUno(array) {
