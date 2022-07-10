@@ -18,7 +18,7 @@ function devolverUltimoElemento(array) {
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-   [array.lentgh];
+   array.lentgh
    return array;
 }  
 
@@ -36,7 +36,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  [array,elemento.push];
+  return array.push(elemento);
 } 
 
 
