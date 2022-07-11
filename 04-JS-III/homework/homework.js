@@ -38,7 +38,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Tu código:
    array.push(elemento);
    return array;
-   
+
 
 } 
 
@@ -48,7 +48,9 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-}
+  array.unshift(elemento);
+  return array;
+} 
 
 
 function dePalabrasAFrase(palabras) {
