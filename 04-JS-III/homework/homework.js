@@ -31,7 +31,7 @@ function incrementarPorUno(array) {
   var nuevoarray = [];
   for (let i=0; i<array.length;++i) {
     return nuevoarray[i] = array[i] + 1;}
-    return nuevoarray
+    return nuevoarray;
   } 
 
 
