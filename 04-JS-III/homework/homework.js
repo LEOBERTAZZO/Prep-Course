@@ -59,7 +59,18 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-}
+  var frase = "";
+  for (var i=0;i<palabras.length;i++) 
+  if (i<palabras.lentgh -1){
+    frase+palabras[i]+""}
+    if (i===palabras.lenght-1){
+      frase=frase+palabras[i]}
+      return frase;
+
+    
+
+  
+} 
 
 
 function arrayContiene(array, elemento) {
