@@ -139,7 +139,7 @@ function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
   var elementos = 0; 
-  for (var i =0; i< arreglo.length; i++);{
+  for (var i =0; i< arreglo.length; i++) {
   if (arreglo[i] >18) elementos = elementos +1; }
 
   return elementos; 
@@ -153,6 +153,10 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
+  var diasSemana = [Sabado,Domingo,Lunes,Martes,Miercoles,Jueves,Viernes] 
+  for (var i =0; i <numeroDeDia.length;i++)
+  if (diasSemana === 0||1) return "Es fin de semana";
+  else {return "Es dia laboral";}
   
 } 
 
