@@ -115,11 +115,11 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   var acc = 0; 
-  for (i=0; i < numeros.length; i++) {
+  for (var i = 0; i < numeros.length; i++) {
   if (acc > numeros[i]);} 
   return acc;
   
-} 
+}  
 
 
 function multiplicarArgumentos() {
