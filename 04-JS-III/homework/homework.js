@@ -190,7 +190,7 @@ function todosIguales(arreglo) {
   for (i=0; i<arreglo.length;i++) {
   if (arreglo[i] !== primerValor) return false;
   }
-   return false; 
+   return true; 
   
 } 
 
