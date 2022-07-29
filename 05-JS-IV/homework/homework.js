@@ -10,7 +10,7 @@ function crearGato (nombre, edad) {
     nombre: nombre,
   
     edad: edad,
-    Meow : function(){
+    meow : function(){
       return "Meow!";
     }
   };
@@ -25,7 +25,7 @@ function agregarPropiedad (objeto, property) {
   // Tu código:
   var miAuto = {
     objeto: null,
-    property: fordFiesta,
+    property: "fordFiesta",
   };
   return miAuto; 
 } 
