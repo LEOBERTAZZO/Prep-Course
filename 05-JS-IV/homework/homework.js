@@ -28,7 +28,7 @@ function agregarPropiedad (objeto, property) {
     property: "fordFiesta",
   };
   return miAuto; 
-} 
+}  
 
 function invocarMetodo (objeto, metodo) {
   // "metodo" es una cadena que contiene el nombre de un método (funcion) en el objeto
