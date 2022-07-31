@@ -84,8 +84,8 @@ function tienePropiedad (objeto, propiedad) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (objeto[propiedad]==="propiedad")
-  return true; 
-  else return false; 
+  {return true;} 
+  else {return false;}
 } 
 
 function verificarPassword (usuario, password) {
