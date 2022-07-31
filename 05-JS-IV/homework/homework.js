@@ -59,8 +59,15 @@ function nuevoUsuario (nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
   // Devuelve el objeto
   // Tu código:
+  var objeto = { 
+    nombre: nombre,
+    email: email,
+    password: password,
+  }
+  return objeto;
 
-}
+
+} 
 
 function tieneEmail (usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
