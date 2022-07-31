@@ -75,6 +75,7 @@ function tieneEmail (usuario) {
   // Tu código:
    if (usuario["email"])
    return true; 
+   else return false; 
 } 
 
 function tienePropiedad (objeto, propiedad) {
